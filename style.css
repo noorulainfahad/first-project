@@ -1,0 +1,131 @@
+.list-container {
+    font-size: 20px;
+    text-decoration: none;
+    
+ }
+
+ .list {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     list-style: none;
+ }
+
+ .listname {
+     padding: 45px;
+     font-family:sans-serif ;
+
+ }
+
+ .box { 
+     height: 50px;
+     width: 50px;
+     background-color: rgb(129, 120, 248);
+     border-radius:20%;
+     box-shadow:  -10px -10px rgb(193, 240, 247);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .title {
+     font-family: sans-serif;
+     padding-left: 10px;
+     font-size: large;
+     font-weight: bold;
+ }
+
+ .button {
+     background-color:rgb(129, 120, 248);
+     color:white ;
+     border: none;
+     height: 25px;
+     width:70px;
+     border-radius: 8px ;
+ }
+
+ .heading {
+     font-family: sans-serif;
+     color: rgb(35, 31, 31);
+     
+ }
+
+ .subheading {
+     color: rgb(129, 120, 248);
+     font-family: sans-serif;
+     text-decoration-line: underline ;
+     text-decoration-color: rgb(193, 240, 247);
+ }
+ 
+ .paragraph { 
+     color: rgb(108, 104, 104);
+     font-family: sans-serif;
+}
+
+.button2 {
+    background-color:rgb(129, 120, 248);
+    color:white ;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.image {
+    border-radius: 10px;
+    height:auto;
+    width: auto;
+}
+
+.sndcontainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+.sndparagraph {
+    color: rgb(108, 104, 104); 
+    font-family: sans-serif;
+}
+
+.paragraph2 {
+    text-align: center;
+}
+.card { 
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.998);
+    border-radius: 8px ;
+    border: 2px solid rgb(220, 215, 222);
+    text-align: center;
+    box-shadow: 10px 20px 20px rgb(129, 120, 248);
+    margin: 30px;
+}
+
+.heading3{
+    font-family: sans-serif;
+    font-size: medium;
+
+}
+
+.paragraph3 {
+    font-size: smaller ;
+    font-family: sans-serif;
+    color: rgb(108, 104, 104);
+}
+
+.maincards {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    margin: 60px;
+}
